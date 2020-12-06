@@ -1,9 +1,7 @@
-import time
 import os
 import random
 from PIL import Image
 from datetime import datetime
-import colorama
 
 
 

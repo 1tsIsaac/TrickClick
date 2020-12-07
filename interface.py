@@ -5,12 +5,18 @@ from datetime import datetime
 
 
 
+# If there are any errors please issue them:
+# https://github.com/1tsIsaac/TrickClick/issues
+# (or contact me | ItsIsaac#0001)
+
+
+
 # The config, I don't recommend changing anything here unless you really have to
 config = {
     "frame-delay": 1,  # 1 recommended
     "loops": 0,  # 0 required, changing will ruin the apng
-    "auto-resize": True,  # If false, sources will require manual resizing
-    "datetime-format": "%d-%m-%Y" # Useful for.. idk
+    "auto-resize": True,  # If false, frames will require manual resizing
+    "datetime-format": "%d-%m-%Y" # Change the date format if you are a weirdo American
 }
 
 

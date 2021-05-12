@@ -39,7 +39,6 @@ def resizePNGs():
     frame2 = Image.open("frames/frame2.png")
 
     frame1_size = frame1.size
-    frame2_size = frame2.size
 
     new_size = frame1_size[0], frame1_size[0]
     frame1 = frame1.resize(new_size)
